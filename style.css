@@ -10,22 +10,26 @@
   font-family: myFont-Thin;
   src: url("Font/ProductSans-Thin.ttf");
 }
+
+
 .logo {
   width: 30px;
   height: 48px;
-  padding: 0 20px;
+ 
 }
 .logo img {
-  width: 100%
+  width: 100%;
+  padding: 0 20px;
 }
 .top-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
+  padding-top: 10px;
+  height: 50px;
 }
 .header-items {
-  padding: 0 20px;
+  padding-bottom: 20px;
 }
 .header-items i {
   margin: 0 20px;
@@ -97,13 +101,20 @@
   flex-direction: row;
 }
 .icons {
-  margin-top: 20px;
+  margin-top: 10px;
 }
 .icons i {
   margin-left: 20px;
 }
+.country{
+  width: 30px;
+  height: 30px;
+margin-top: 5px;
+}
+
 .footer-ctnt p {
   margin-left: 20px;
   font-family: myFont-Thin;
+  color: #423f3f;
   font-size: 12px;
 }
