@@ -11,7 +11,16 @@
   src: url("Font/ProductSans-Thin.ttf");
 }
 
-
+body{
+  margin: 0;
+}
+.top{
+  background-color: white;
+  position: sticky;
+  top: 0;
+  
+  
+}
 .logo {
   width: 30px;
   height: 48px;
